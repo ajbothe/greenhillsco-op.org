@@ -1,0 +1,147 @@
+#header {
+  color: #008c2c;
+}
+.navbar-default {
+  background-color: #ffffff;
+  /*border-color: #2bc02f;*/
+  border-color: #008c2c;
+}
+.navbar-default .navbar-brand {
+  color: #000000;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #bfffbb;
+}
+.navbar-default .navbar-text {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #bfffbb;
+  background-color: #008c2c;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #bfffbb;
+  background-color: #008c2c;
+}
+.navbar-default .navbar-nav > .none > a,
+.navbar-default .navbar-nav > .none > a:hover,
+.navbar-default .navbar-nav > .none > a:focus {
+  color: #000;
+  background-color: #fff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #bfffbb;
+  background-color: #008c2c;
+}
+.navbar-default .navbar-toggle {
+  border-color: #008c2c;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #008c2c;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #000000;
+}
+.navbar-default .navbar-link {
+  color: #000000;
+}
+.navbar-default .navbar-link:hover {
+  color: #bfffbb;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #bfffbb;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #bfffbb;
+    background-color: #008c2c;
+  }
+    .navbar-default .navbar-nav .open .dropdown-menu > .none > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .none > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .none > a:focus {
+    color: #000;
+    background-color: #fff;
+  }
+}
+h1 {
+  color: #008c2c;
+    text-shadow: 1px 1px #444;
+}
+h3 {
+  color: #008c2c;
+  font-weight: bold;
+  font-size: 2em;
+    text-shadow: 1px 1px #444;
+
+}
+
+.footer {
+    background-color: #aaa;
+}
+.footer p {
+    padding: 3% 0 2% 0;
+    color: white;
+}
+
+.panel-default > .panel-header {
+  background-color: #008c2c;
+  color: white;
+  padding: 7px 0 7px 7px;
+}
+
+.bg-success { 
+  color: white;
+  background-color: #008c2c;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 2em;
+}
+#teacherAideContent {
+   margin-left:auto;
+   margin-right:auto;
+   display:center;
+}
+#teacherAide h3 {
+}
+
+.jumbotron {
+    position: relative;
+    background: #000 url("../images/header/jumbotron1.jpg") center center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.responsiveCal {
+ 
+position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+ 
+}
+ 
+.responsiveCal iframe {
+ 
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+ 
+}

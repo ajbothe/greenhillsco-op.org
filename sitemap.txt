@@ -1,0 +1,4 @@
+index.htm
+about.htm
+staff.htm
+tuition.htm
